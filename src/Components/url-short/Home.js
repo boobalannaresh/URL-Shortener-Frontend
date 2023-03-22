@@ -16,10 +16,6 @@ function Home() {
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
 
-
-
-
-
     //Alert function;
     const Toast = Swal.mixin({
         toast: true,

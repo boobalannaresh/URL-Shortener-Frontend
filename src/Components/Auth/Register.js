@@ -10,7 +10,6 @@ import { env } from "../../config";
 function Register() {
   let navigate = useNavigate();
 
-
   const formik = useFormik({
     initialValues: {
       name: "",

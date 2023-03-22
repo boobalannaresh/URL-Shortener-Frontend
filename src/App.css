@@ -21,7 +21,7 @@ min-height: 20rem;
 }
 .logout{
     position: fixed;
-    top:20px;
+    bottom:20px;
     right: 50px;
     width: 100px;
     padding: 14px;
