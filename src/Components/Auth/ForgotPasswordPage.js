@@ -94,7 +94,7 @@ function ForgotPasswordPage() {
             onBlur={formik.handleBlur}
             name="password"
           />
-          <label for="password">Password</label>
+          <label for="password">New Password</label>
         </div>
         {formik.touched.password && formik.errors.password ? (
           <div className="error"> {formik.errors.password}</div>

@@ -53,7 +53,6 @@ function ForgotPassword() {
     <form  className="form"  onSubmit={(values) => {
             formik.handleSubmit(values);
           }}>
-      <img src="img/avatar.png" className="img" alt=""/>
       <h2>Forgot Password</h2>
       <div className="input-group">
         <input type="text"  id="email" required 
