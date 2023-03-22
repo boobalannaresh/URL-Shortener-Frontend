@@ -75,7 +75,6 @@ function Register() {
     <form  className="form"  onSubmit={(values) => {
             formik.handleSubmit(values);
           }}>
-      <img src="img/avatar.png" alt="" className="img"/>
       <h2>Sign Up</h2>
       <div className="input-group">
         <input type="text"  id="name" required 
